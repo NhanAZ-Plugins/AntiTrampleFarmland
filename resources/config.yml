@@ -1,7 +1,7 @@
 ---
-# - blacklist: Only worlds which ARE NOT listed : Farmland will not decay when trampled by any entity
-# - whitelist: Only worlds which ARE listed : Farmland will decay when trampled by any entity
+# blacklist protects all worlds except those listed below.
+# whitelist protects only the listed worlds.
 mode: blacklist
-# List names of worlds here.
+# List world display names here.
 worlds: []
 ...
