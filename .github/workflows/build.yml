@@ -67,4 +67,3 @@ jobs:
             ${{ steps.build.outputs.phar }}
             build/devtools-build.json
           if-no-files-found: error
-          retention-days: 14
