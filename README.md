@@ -37,7 +37,7 @@ Download `AntiTrampleFarmland.phar` from a verified [GitHub release](https://git
 
 ## Building and testing
 
-The [build workflow](.github/workflows/build.yml) runs the protection policy cases and PHPStan level max, builds the plugin PHAR with [DevTools](https://github.com/NhanAZ/DevTools), then verifies the PHAR contents and digest. The workflow pins the builder revision. A clean server startup check establishes that the PHAR loads. An in-game trampling test with an entity is a separate check.
+The [build workflow](.github/workflows/build.yml) runs the protection policy cases and PHPStan level max, builds the plugin PHAR with [DevTools](https://github.com/AxolotlBucketLabs/DevTools), then verifies the PHAR contents and digest. The workflow pins the builder revision. A clean server startup check establishes that the PHAR loads. An in-game trampling test with an entity is a separate check.
 
 ## License and support
 
